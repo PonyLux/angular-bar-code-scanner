@@ -11,10 +11,13 @@ angular.module('myApp', ['barCodeScanner']);
 </pre>
 
 Then include the directive "barCodeScanner" in your template on element (we don't really care about the type of element):
+
 ```html
+
     <body data-bar-code-scanner>
         ...
     </body>
+    
 ```
 
 Now your application is able to detect scan. Just catch the scan event by listen the event:

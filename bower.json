@@ -1,0 +1,17 @@
+{
+  "name": "angular-bar-code-scanner",
+  "version": "0.0.1",
+  "authors": [
+    "Benjamin Clermont"
+  ],
+  "main": [
+    "angular-bar-code-scanner.js",
+    "angular-bar-code-scanner.min.js"
+  ],
+  "private": false,
+  "ignore": [
+    "src/",
+    "Gruntfile.js",
+    "package.json"
+  ]
+}

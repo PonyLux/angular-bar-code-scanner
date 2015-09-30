@@ -9,8 +9,9 @@ In order to use the bar code scan, you will need to include the lib:
 // In your app.js
 angular.module('myApp', ['barCodeScanner']);
 </pre>
-
+<p>
 Then include the directive "barCodeScanner" in your template on element (we don't really care about the type of element):
+</p>
 
 ```html
 
@@ -20,7 +21,12 @@ Then include the directive "barCodeScanner" in your template on element (we don'
     
 ```
 
+<br/>
+<p>
 Now your application is able to detect scan. Just catch the scan event by listen the event:
+</p>
+<br/>
+
 ```
 angular.module('myApp').controller('MyController', function($scope){
     $scope.$on('bar-code-scan-event',function(event, parameters){

@@ -3,11 +3,21 @@
 
 <hr/>
 
+<h3> Installation </h3>
+
+<p> You can clone this project or directly use bower:
+
+<pre>
+bower install --save angular-bar-code-scanner
+<hr/>
+
+<hr/>
+
 <h3> Basic Usage </h3>
 In order to use the bar code scan, you will need to include the lib:
 <pre>
 // In your app.js
-angular.module('myApp', ['barCodeScanner']);
+angular.module('myApp', ['angular-bar-code-scanner']);
 </pre>
 <p>
 Then include the directive "barCodeScanner" in your template on element (we don't really care about the type of element):

@@ -1,19 +1,19 @@
 /**
  * @ngdoc overview
- * @name barCodeScanner
+ * @name angular-bar-code-scanner
  * @description
  * This module allow the detection of bar code scan.
  */
-angular.module('barCodeScanner', []);
+angular.module('angular-bar-code-scanner', []);
 
 /**
  * @ngdoc object
- * @name barCodeScanner.BarCodeScannerConfigProvider
+ * @name angular-bar-code-scanner.BarCodeScannerConfigProvider
  * @description
  * This provider allow to configure the bar code scan.
  *
  */
-angular.module('barCodeScanner').provider('BarCodeScannerConfig', function() {
+angular.module('angular-bar-code-scanner').provider('BarCodeScannerConfig', function() {
     'use strict';
 
     var broadcastEventName = 'bar-code-scan-event',
@@ -22,7 +22,7 @@ angular.module('barCodeScanner').provider('BarCodeScannerConfig', function() {
     /**
      * @ngdoc function
      * @name setBroadcastEventName
-     * @methodOf barCodeScanner.BarCodeScannerConfigProvider
+     * @methodOf angular-bar-code-scanner.BarCodeScannerConfigProvider
      *
      * @description
      * This method allow to set the event name that will be broadcast when a scan is detected.
@@ -37,7 +37,7 @@ angular.module('barCodeScanner').provider('BarCodeScannerConfig', function() {
     /**
      * @ngdoc function
      * @name setNumberOfCharOfBarCode
-     * @methodOf barCodeScanner.BarCodeScannerConfigProvider
+     * @methodOf angular-bar-code-scanner.BarCodeScannerConfigProvider
      *
      * @description
      * This method allow to set the limit until we consider that a scan is trigger.
@@ -67,7 +67,7 @@ angular.module('barCodeScanner').provider('BarCodeScannerConfig', function() {
 
 /**
  * @ngdoc directive
- * @name barCodeScanner.directive:barCodeScanner
+ * @name angular-bar-code-scanner.directive:barCodeScanner
  * @restrict A
  * @scope
  *
@@ -95,7 +95,7 @@ angular.module('barCodeScanner').provider('BarCodeScannerConfig', function() {
  *
  *
  */
-angular.module('barCodeScanner').directive('barCodeScanner', ['$rootScope', '$timeout', 'BarCodeScannerConfig',
+angular.module('angular-bar-code-scanner').directive('barCodeScanner', ['$rootScope', '$timeout', 'BarCodeScannerConfig',
     function ($rootScope, $timeout, BarCodeScannerConfig) {
     "use strict";
 

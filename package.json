@@ -12,6 +12,9 @@
     "angular",
     "bar-code",
     "scan",
+    "scanner",
+    "bar",
+    "code",
     "bar-code-scan"
   ],
   "author": "Benjamin Clermont",

@@ -1,11 +1,10 @@
 {
   "name": "angular-bar-code-scanner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "Benjamin Clermont"
   ],
   "main": [
-    "angular-bar-code-scanner.js",
     "angular-bar-code-scanner.min.js"
   ],
   "private": false,

@@ -1,8 +1,8 @@
 {
   "name": "angular-bar-code-scanner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This module provide tool to manage bar code scan",
-  "main": "index.js",
+  "main": "angular-bar-code-scanner.min.js",
   "scripts": {},
   "repository": {
     "type": "git",
